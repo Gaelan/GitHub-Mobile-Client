@@ -4,7 +4,8 @@
  * @flow
  */
 
-import React, { Component } from 'react';
+import * as React from 'react';
+import { Component } from 'react';
 import {
   AppRegistry,
   StyleSheet,
@@ -12,7 +13,7 @@ import {
   View
 } from 'react-native';
 
-export default class GitHubMobileClient extends Component {
+export default class GitHubMobileClient extends Component<{}, {}> {
   render() {
     return (
       <View style={styles.container}>
