@@ -1,12 +1,12 @@
 {
+    "compileOnSave": true,
     "compilerOptions": {
         "target": "es6",
         "jsx": "react",
         "outDir": "artifacts",
         "rootDir": "src",
         "sourceMap": true,
-        "noImplicitAny": true,
-		"compileOnSave": true
+        "noImplicitAny": true
     },
     "filesGlob": [
         "src/**/*.ts",
