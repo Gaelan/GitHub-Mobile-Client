@@ -4,8 +4,7 @@
  * @flow
  */
 
-import * as React from 'react';
-import { Component } from 'react';
+import React, { Component } from 'react';
 import {
   AppRegistry,
   StyleSheet,
@@ -13,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-export default class GitHubMobileClient extends Component<{}, {}> {
+export default class githubMobileClient extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -21,11 +20,11 @@ export default class GitHubMobileClient extends Component<{}, {}> {
           Welcome to React Native!
         </Text>
         <Text style={styles.instructions}>
-          To get started, edit index.ios.js
+          To get started, edit index.android.js
         </Text>
         <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
+          Double tap R on your keyboard to reload,{'\n'}
+          Shake or press menu button for dev menu
         </Text>
       </View>
     );
@@ -51,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('GitHubMobileClient', () => GitHubMobileClient);
+AppRegistry.registerComponent('githubMobileClient', () => githubMobileClient);
